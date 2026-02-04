@@ -1,6 +1,6 @@
 # User Activity Analytics Platform (MongoDB & Python)
 
-## Project Overview
+## Overview
 This project implements a user activity analytics platform using MongoDB and Python to transform raw, high-volume event data into meaningful product insights.  
 User interactions are modeled as time-ordered events, and MongoDB aggregation pipelines are used to compute key analytics metrics such as Daily Active Users (DAU), funnel conversion, and event trends.
 
@@ -19,7 +19,7 @@ Using rigid relational schemas for this data typically results in:
 
 This project addresses these challenges by modeling user activity as append-only event data optimized for analytics use cases.
 
-## Project Objectives
+## Objectives
 - Design an event-based data model using MongoDB documents
 - Efficiently store and query large volumes of user activity data
 - Implement common product analytics metrics (DAU, funnels)
