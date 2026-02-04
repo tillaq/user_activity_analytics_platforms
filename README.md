@@ -81,13 +81,14 @@ These indexes reflect real trade-offs between write cost and read performance in
 Tracks how many unique users reach each stage and where drop-offs occur
 
 ## Data Generation
-To mirror real analytics pipelines, the project generates synthetic event data rather than using pre-aggregated datasets:
-- 100,000+ events
+The event data was pre-populated to simulate realistic user behavior, allowing the project to focus on analytics design and MongoDB usage rather than data simulation.
+
+- 100,000+ user activity events
 - Multiple users and sessions
-- Realistic time distribution
+- Realistic time distribution across days
 - Natural drop-off between funnel stages
 
-This approach reflects how analytics platforms ingest raw events in production systems
+This approach reflects how analytics platforms typically ingest raw event data in production systems.
 
 ## Tools Used
 - **Python**
